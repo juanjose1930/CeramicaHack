@@ -1,43 +1,20 @@
-# MaterialesHack
+###                        MaterialesHack
 
-## OBJETIVOS
+# OBJETIVOS:
 *MaterialesHack* está diseñado para facilitar la creación de carpetas de materiales y el acomodo de archivos dentro de éstas.
 
-## INSTALACIÓN
-
-### Windows
-
-1. Ubica la carpeta ZIP proporcionada, **MaterialesHack**. Extráela dando clic derecho y seleccionando la opción `Extraer todo…`.
-2. Aparecerá la carpeta **MaterialesHack**. Entra a `MaterialesHack > target` y selecciona con doble clic el archivo **jdk-21_windows-x64_bin.exe**. Sigue los pasos del instalador.  
-   Si ya contabas con el **jdk-21** este paso no será necesario. Ejecutar **jdk-21_windows-x64_bin.exe** solo será necesario la primera vez.
-3. Una vez instalado el JDK por **ÚNICA OCASIÓN**, siempre que quieras podrás correr la aplicación dando doble clic sobre **MaterialesHack-1.0-SNAPSHOT**.
-
-### MacOS
-
-1. Ubica la carpeta ZIP proporcionada, **MaterialesHack**. Extráela dando doble clic.
-2. Aparecerá la carpeta `target`. Entra y ejecuta el archivo **jdk-21_macos-x64_bin.dmg**. Sigue los pasos del instalador.  
-   Si ya contabas con el **jdk-21** este paso no será necesario. Ejecutar **jdk-21_macos-x64_bin.dmg** solo será necesario la primera vez.
-3. Para ejecutar **MaterialesHack** tendrás que abrir la **Terminal** y ejecutarlo desde ahí:  
-   - Desde tu dispositivo encuentra la aplicación *Finder*.  
-   - En la parte superior derecha, busca “Terminal” y selecciona el ícono correspondiente.  
-   - Dentro de la Terminal escribe el siguiente comando:  
-
-   !!!bash
-   java -jar [dirección del archivo]/MaterialesHack-1.0-SNAPSHOT
-   !!!
-
-   > **Nota:** Luego de escribir `java -jar` es necesario colocar un espacio antes de la dirección. Puedes copiar la dirección o arrastrar el archivo a la Terminal.
-
-   - Presiona **Enter** y el programa estará listo para correr.
 
 ## CREAR CARPETAS
 
 La estructura establecida para las carpetas de materiales es la siguiente: **Cerámica**, **Estucos**, **Lítica**, **Malacología**, **Metales** y **Óseo** comparten la misma estructura.
 
-- Dentro de cada carpeta de materiales están contenidas las respectivas carpetas de claves de excavación.  
-- La carpeta **Cédula anterior** no se encuentra dentro de todas las claves.  
-- La carpeta **Cédula CATSA** tampoco se encuentra dentro de todas las claves.
+![Estructura de carpetas](img/Picture1.png)
 
+a. Dentro de cada carpeta de materiales están contenidas las respectivas carpetas de claves de excavación.  
+b. La carpeta **Cédula anterior** no se encuentra dentro de todas las claves.  
+c. La carpeta **Cédula CATSA** tampoco se encuentra dentro de todas las claves.
+
+![Main de crear carpetas](img/Picture2.png)
 En la pantalla principal **CREAR CARPETAS**, podrás crear toda esta estructura automáticamente en segundos.  
 *(IMAGEN 1, IMAGEN 2)*
 
@@ -47,29 +24,41 @@ En la pantalla principal **CREAR CARPETAS**, podrás crear toda esta estructura 
 
 1. Crea o reutiliza un archivo Excel con **cualquier nombre**.
 2. Estructura tu archivo Excel así:  
-   - Lista en la columna `Clave` todas las claves de excavación. Esto creará una carpeta por clave con la estructura mostrada en la *IMAGEN 1*.  
-   - Crea dos campos más: `Cédula anterior` y `CATSA`. Marca con una `x` (minúscula) las claves que sí contarán con éstas.  
+   a. Lista en la columna `Clave` todas las claves de excavación. Esto creará una carpeta por clave con la estructura mostrada en la *IMAGEN 1*.  
+   b. Crea dos campos más: `Cédula anterior` y `CATSA`. Marca con una `x` (minúscula) las claves que sí contarán con éstas.  
 
+![Estructura excel](img/Picture4.png)
    > **Nota:** Los campos en Excel deben llamarse exactamente: `Clave`, `Cédula anterior` y `CATSA`. Variaciones (mayúsculas o acentos) harán fallar el procedimiento.
 
 3. Guarda tu archivo Excel y conviértelo a JSON.  
-   Usa el enlace en la ventana principal (*IMAGEN 2*) para entrar a una página que convertirá fácilmente Excel a JSON.  
-   *(IMAGEN 3, IMAGEN 4, IMAGEN 5)*
+   Un JSON es un documento que se utiliza para estructurar datos. Utiliza el enlace proporcionado en el Paso 1 de la ventana principal (IMAGEN 2.) para entrar a una página que te convertirá fácilmente el archivo de Excel a JSON.
 
-   > **Nota:** La página es ajena a MaterialesHack. Puedes usar cualquier otro método.
+![Boton link de web](img/Picture5.png)
+   > **Nota:** La siguiente página es ajena a MaterialesHack. Puedes utilizar cualquier otra página o método de tu preferencia para convertir el archivo XLSX (archivo de Excel) a JSON. 
+![Cargar excel](img/Picture6.png)
+a.	Arrastra y suelta o da clic en esta sección de la página para elegir tu archivo Excel creado en los puntos anteriores.
 
-4. Descarga tu archivo JSON.
+b.	Da clic al botón CONVERTIR. 
+
+![Descargar JSON](img/Picture7.png)
+
+a.	Aquí puedes pre visualizar la estructura de un archivo JSON. NO ES NECESARIO que indagues en nada de esto.
+b.	Simplemente dale clic al botón DESCARGAR AHORA y tendrás tu archivo listo.
 
 ### URL del archivo JSON (Lista de claves)
 
-Una vez listo el archivo JSON, cárgalo en el apartado correspondiente.  
+Una vez listo el archivo JSON, cárgalo en el apartado correspondiente. 
+![Campo URL](img/Picture8.png) 
 Copia y pega la dirección en tu computadora o usa el botón de búsqueda.  
 
 > **Nota:** Solo se permiten archivos `.json`.
 
 ### URL donde se crearán las carpetas
 
-En tu dispositivo debes tener una estructura similar a la siguiente:  
+En tu dispositivo debes tener una estructura similar a la siguiente: 
+
+![Estructura carpeta](img/Picture10.png) 
+ 
 Con *MaterialesHack*, puedes generar automáticamente el contenido de cada carpeta en segundos.
 
 Selecciona una carpeta (Cerámica, Estucos, Lítica, Malacología, Metales u Óseo).  
@@ -77,9 +66,9 @@ El programa generará la estructura para cada clave indicada en el JSON.
 
 > **Nota:** Si seleccionas una carpeta con nombre distinto (por acento o mayúscula), será rechazada.
 
-!!!text
-ceramica -> Cerámica
-!!!
+![bad](img/Picture11.png) ceramica         ![corect](img/Picture12.png) 
+
+![Destino carpetas](img/Picture13.png)    
 
 Por último, da clic en el botón para generar las carpetas automáticamente.  
 Repite el proceso para cada carpeta de materiales.  
