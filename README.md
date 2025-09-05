@@ -40,24 +40,28 @@ b. Crea dos campos más: `Cédula anterior` y `CATSA`. Marca con una `x` (minús
    Un JSON es un documento que se utiliza para estructurar datos. Utiliza el enlace proporcionado en el Paso 1 de la ventana principal (IMAGEN 2.) para entrar a una página que te convertirá fácilmente el archivo de Excel a JSON.
 
 ![Boton link de web](img/Picture5.png)
-   > **Nota:** La siguiente página es ajena a MaterialesHack. Puedes utilizar cualquier otra página o método de tu preferencia para convertir el archivo XLSX (archivo de Excel) a JSON. 
-![Cargar excel](img/Picture6.png)
-a.	Arrastra y suelta o da clic en esta sección de la página para elegir tu archivo Excel creado en los puntos anteriores.
+> [!NOTE]
+> La siguiente página es ajena a MaterialesHack. Puedes utilizar cualquier otra página o método de tu preferencia para convertir el archivo XLSX (archivo de Excel) a JSON. 
 
-b.	Da clic al botón CONVERTIR. 
+![Cargar excel](img/Picture6.png)
+
+a. Arrastra y suelta o da clic en esta sección de la página para elegir tu archivo Excel creado en los puntos anteriores.
+b. Da clic al botón ***CONVERTIR***. 
 
 ![Descargar JSON](img/Picture7.png)
 
-a.	Aquí puedes pre visualizar la estructura de un archivo JSON. NO ES NECESARIO que indagues en nada de esto.
-b.	Simplemente dale clic al botón DESCARGAR AHORA y tendrás tu archivo listo.
+a. Aquí puedes pre visualizar la estructura de un archivo JSON. NO ES NECESARIO que indagues en nada de esto.
+b. Simplemente dale clic al botón DESCARGAR AHORA y tendrás tu archivo listo.
 
 ### URL del archivo JSON (Lista de claves)
 
 Una vez listo el archivo JSON, cárgalo en el apartado correspondiente. 
 ![Campo URL](img/Picture8.png) 
+
 Copia y pega la dirección en tu computadora o usa el botón de búsqueda.  
 
-> **Nota:** Solo se permiten archivos `.json`.
+> [!NOTE]
+> Sólo se permiten archivos `.json`.
 
 ### URL donde se crearán las carpetas
 
@@ -70,9 +74,10 @@ Con *MaterialesHack*, puedes generar automáticamente el contenido de cada carpe
 Selecciona una carpeta (Cerámica, Estucos, Lítica, Malacología, Metales u Óseo).  
 El programa generará la estructura para cada clave indicada en el JSON.  
 
-> **Nota:** Si seleccionas una carpeta con nombre distinto (por acento o mayúscula), será rechazada.
+> [!NOTE]
+> Si seleccionas una carpeta con nombre distinto (por acento o mayúscula), será rechazada.
 
-![bad](img/Picture11.png) ceramica         ![corect](img/Picture12.png) 
+![bad](img/Picture11.png) ceramica         ![correct](img/Picture12.png) 
 
 ![Destino carpetas](img/Picture13.png) 
 
@@ -84,9 +89,8 @@ Repite el proceso para cada carpeta de materiales.
 
 ![corect](img/Picture16.png)  
 
-### IMPORTANTE
-
-Una vez realizado este proceso por primera vez, puedes crear nuevas carpetas SIEMPRE QUE QUIERAS, ya sea generando un JSON desde cero con las nuevas entradas o agregándoselas al original en su lista. Incluso, dado el caso de que alguna carpeta de Clave de excavación ahora cuente con una Cédula CATSA o una Cédula anterior con la que antes no, simplemente repite este proceso y se agregarán los faltantes SIN AFECTAR las carpetas ya creadas ni los archivos que ya tengan dentro.
+> [!IMPORTANT]
+> Una vez realizado este proceso por primera vez, puedes crear nuevas carpetas SIEMPRE QUE QUIERAS, ya sea generando un JSON desde cero con las nuevas entradas o agregándoselas al original en su lista. Incluso, dado el caso de que alguna carpeta de Clave de excavación ahora cuente con una Cédula CATSA o una Cédula anterior con la que antes no, simplemente repite este proceso y se agregarán los faltantes SIN AFECTAR las carpetas ya creadas ni los archivos que ya tengan dentro.
 ## ORGANIZAR ARCHIVOS
 
 **ORGANIZAR ARCHIVOS** de *MaterialesHack* copiará y acomodará automáticamente todos los archivos (JPG o PDF) desde una carpeta de origen hacia las carpetas de destino, tal como se ve en la siguiente gráfica.  
