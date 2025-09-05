@@ -68,26 +68,33 @@ El programa generará la estructura para cada clave indicada en el JSON.
 
 ![bad](img/Picture11.png) ceramica         ![corect](img/Picture12.png) 
 
-![Destino carpetas](img/Picture13.png)    
+![Destino carpetas](img/Picture13.png) 
 
-Por último, da clic en el botón para generar las carpetas automáticamente.  
-Repite el proceso para cada carpeta de materiales.  
+Copia y pega la dirección en tu computadora de la carpeta de materiales respectiva o da clic al botón ![corect](img/Picture14.png)  para abrir el buscador de archivos.   
+
+Por último, da clic en el botón ![corect](img/Picture15.png) para generar las carpetas automáticamente.  
+
+Repite el proceso para cada carpeta de materiales.
+
+![corect](img/Picture16.png)  
 
 ### IMPORTANTE
 
-- Puedes crear nuevas carpetas cuando quieras, ya sea con un JSON nuevo o ampliando el existente.  
-- Si alguna clave ahora incluye una cédula adicional (CATSA o anterior), repite el proceso: se añadirán las faltantes **sin afectar** lo ya creado ni los archivos existentes.
-
+Una vez realizado este proceso por primera vez, puedes crear nuevas carpetas SIEMPRE QUE QUIERAS, ya sea generando un JSON desde cero con las nuevas entradas o agregándoselas al original en su lista. Incluso, dado el caso de que alguna carpeta de Clave de excavación ahora cuente con una Cédula CATSA o una Cédula anterior con la que antes no, simplemente repite este proceso y se agregarán los faltantes SIN AFECTAR las carpetas ya creadas ni los archivos que ya tengan dentro.
 ## ORGANIZAR ARCHIVOS
 
-**ORGANIZAR ARCHIVOS** de *MaterialesHack* copiará y acomodará automáticamente todos los archivos (JPG o PDF) desde una carpeta de origen hacia las carpetas de destino.  
-*(IMAGEN 6)*
+**ORGANIZAR ARCHIVOS** de *MaterialesHack* copiará y acomodará automáticamente todos los archivos (JPG o PDF) desde una carpeta de origen hacia las carpetas de destino, tal como se ve en la siguiente gráfica.  
+
+![corect](img/Picture17.png)
 
 ### Especificaciones
 
 Este procedimiento toma un banco de archivos de una carpeta de origen y los copia a sus respectivas carpetas de clave, siguiendo la estructura de la *IMAGEN 1*.
 
 Ejemplo: carpeta `01_iniciales` con imágenes de claves como:
+
+![corect](img/Picture19.png)
+El programa detectará automáticamente las claves de excavación a las que se les hace referencia en los archivos dentro de 01_iniciales. En este ejemplo serían:
 
 - `T2_14217_226_0000452`  
 - `T2_00060_229_0000379`  
@@ -115,15 +122,33 @@ Resultado: cada imagen se copiará en automático a su lugar según la clave.
 
 ### Pasos
 
-1. **URL donde se encuentran los archivos**: pega la dirección o usa el buscador. *(IMAGEN 7)*  
-   > No importa el nombre de la carpeta.  
-2. **URL de la carpeta de material**: selecciona una carpeta válida (Cerámica, Estucos, etc.).  
-   > Si tiene un nombre distinto, será rechazada.  
-3. **Carpeta donde se copiarán los archivos**: elige la carpeta final (ver *IMAGEN 1*).  
+1. **URL donde se encuentran los archivos**
+![corect](img/Picture20.png)
+Copia y pega la dirección en tu computadora de la carpeta donde se encuentra tu banco de imágenes o da clic al botón  ![corect](img/Picture14.png)  para abrir el buscador de archivos.  
+> **Nota:** No importa en absoluto el nombre de la carpeta en este primer paso.
+2. **URL de la carpeta de material**: 
+Selecciona alguna de tus carpetas de materiales, ya sea Cerámica, Estucos, Lítica, Malacología, Metales u Óseo. Éstas preferentemente ya deben tener dentro alguna carpeta de clave de excavación.
+ 
+> **Nota:** No importa en absoluto el nombre de la carpeta en este primer paso.
+
+![bad](img/Picture11.png) ceramica         ![corect](img/Picture12.png) 
+![bad](img/Picture21.png) ceramica
+
+Copia y pega la dirección en tu computadora de la carpeta de materiales donde quieres mover las imágenes o da clic al botón   para abrir el buscador de archivos.
+
+3. **Carpeta donde se copiarán los archivos**
+
+
+Elige la carpeta final (ver *IMAGEN 1*). 
+![bad](img/Picture22.png) ceramica 
 
 Da clic en **ORGANIZAR** y espera a que se complete el proceso.  
 
-¡Listo! Los archivos se habrán distribuido y copiado en sus respectivas carpetas.  
+¡Listo! Los archivos se habrán distribuido y copiado en sus respectivas carpetas.
+
+![bad](img/Picture23.png) ceramica
+
+Repite este proceso con las carpetas de materiales y las carpetas finales que te falten por llenar y actualizar   
 
 ### Consideraciones
 
