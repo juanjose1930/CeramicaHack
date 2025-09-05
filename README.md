@@ -6,29 +6,34 @@
 
 ## CREAR CARPETAS
 
-La estructura establecida para las carpetas de materiales es la siguiente: **Cerámica**, **Estucos**, **Lítica**, **Malacología**, **Metales** y **Óseo** comparten la misma estructura.
+La estructura establecida para las carpetas de materiales es la siguiente:
 
 ![Estructura de carpetas](img/Picture1.png)
+
+ **Cerámica**, **Estucos**, **Lítica**, **Malacología**, **Metales** y **Óseo** comparten la misma estructura.
 
 a. Dentro de cada carpeta de materiales están contenidas las respectivas carpetas de claves de excavación.  
 b. La carpeta **Cédula anterior** no se encuentra dentro de todas las claves.  
 c. La carpeta **Cédula CATSA** tampoco se encuentra dentro de todas las claves.
 
 ![Main de crear carpetas](img/Picture2.png)
+
 En la pantalla principal **CREAR CARPETAS**, podrás crear toda esta estructura automáticamente en segundos.  
-*(IMAGEN 1, IMAGEN 2)*
+
 
 ### Link para convertir Excel a JSON
 
-*MaterialesHack* necesita que indiques las cédulas de excavación de las cuáles quieres que se creen sus respectivas carpetas.
+*MaterialesHack* necesita qué indiques las cédulas de excavación de las cuáles quieres que se creen sus respectivas carpetas.
 
 1. Crea o reutiliza un archivo Excel con **cualquier nombre**.
 2. Estructura tu archivo Excel así:  
-   a. Lista en la columna `Clave` todas las claves de excavación. Esto creará una carpeta por clave con la estructura mostrada en la *IMAGEN 1*.  
-   b. Crea dos campos más: `Cédula anterior` y `CATSA`. Marca con una `x` (minúscula) las claves que sí contarán con éstas.  
 
 ![Estructura excel](img/Picture4.png)
-   > **Nota:** Los campos en Excel deben llamarse exactamente: `Clave`, `Cédula anterior` y `CATSA`. Variaciones (mayúsculas o acentos) harán fallar el procedimiento.
+
+    a. Lista en la columna `Clave` todas las claves de excavación. Esto creará una carpeta por clave con la estructura mostrada en la *IMAGEN 1*.  
+    b. Crea dos campos más: `Cédula anterior` y `CATSA`. Marca con una `x` (minúscula) las claves que sí contarán con éstas.  
+    > [!NOTE]
+    > Los campos en Excel deben llamarse exactamente: `Clave`, `Cédula anterior` y `CATSA`. Variaciones (mayúsculas o acentos) harán fallar el procedimiento.
 
 3. Guarda tu archivo Excel y conviértelo a JSON.  
    Un JSON es un documento que se utiliza para estructurar datos. Utiliza el enlace proporcionado en el Paso 1 de la ventana principal (IMAGEN 2.) para entrar a una página que te convertirá fácilmente el archivo de Excel a JSON.
