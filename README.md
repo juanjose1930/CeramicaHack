@@ -148,15 +148,16 @@ Selecciona alguna de tus carpetas de materiales, ya sea Cerámica, Estucos, Lít
 > [!NOTE]
 > No importa en absoluto el nombre de la carpeta en este primer paso.
 
-![bad](img/Picture11.png) ceramica         ![corect](img/Picture12.png) 
-![bad](img/Picture21.png) ceramica
+![bad](img/Picture11.png) ceramica         ![corect](img/Picture12.png) cerámica 
+
+![bad](img/Picture21.png)
 
 Copia y pega la dirección en tu computadora de la carpeta de materiales donde quieres mover las imágenes o da clic al botón   para abrir el buscador de archivos.
 
 3. **Carpeta donde se copiarán los archivos**
 
 
-Elige la carpeta final (ver *IMAGEN 1*). 
+Elige la carpeta final. 
 
 ![bad](img/Picture22.png) ceramica 
 
@@ -164,7 +165,7 @@ Da clic en **ORGANIZAR** y espera a que se complete el proceso.
 
 ¡Listo! Los archivos se habrán distribuido y copiado en sus respectivas carpetas.
 
-![bad](img/Picture23.png) ceramica
+![bad](img/Picture23.png)
 
 Repite este proceso con las carpetas de materiales y las carpetas finales que te falten por llenar y actualizar   
 
