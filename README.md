@@ -77,7 +77,7 @@ El programa generará la estructura para cada clave indicada en el JSON.
 > [!NOTE]
 > Si seleccionas una carpeta con nombre distinto (por acento o mayúscula), será rechazada.
 
-![bad](img/Picture11.png) ceramica         ✅ cerámica 
+❌ ceramica         ✅ cerámica 
 
 ![Destino carpetas](img/Picture13.png) 
 
@@ -148,7 +148,7 @@ Selecciona alguna de tus carpetas de materiales, ya sea Cerámica, Estucos, Lít
 > [!NOTE]
 > No importa en absoluto el nombre de la carpeta en este primer paso.
 
-![bad](img/Picture11.png) ceramica         ✅ cerámica 
+❌ ceramica         ✅ cerámica 
 
 ![bad](img/Picture21.png)
 
