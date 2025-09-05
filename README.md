@@ -148,7 +148,7 @@ Selecciona alguna de tus carpetas de materiales, ya sea Cerámica, Estucos, Lít
 > [!NOTE]
 > No importa en absoluto el nombre de la carpeta en este primer paso.
 
-![bad](img/Picture11.png) ceramica         ![corect](img/Picture12.png) cerámica 
+![bad](img/Picture11.png) ceramica         ![corect](img/Picture11.png) cerámica 
 
 ![bad](img/Picture21.png)
 
@@ -159,7 +159,7 @@ Copia y pega la dirección en tu computadora de la carpeta de materiales donde q
 
 Elige la carpeta final. 
 
-![bad](img/Picture22.png) ceramica 
+![bad](img/Picture22.png) 
 
 Da clic en **ORGANIZAR** y espera a que se complete el proceso.  
 
