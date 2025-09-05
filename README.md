@@ -8,7 +8,7 @@
 
 La estructura establecida para las carpetas de materiales es la siguiente:
 
-![Estructura de carpetas](img/Picture1.png)
+![](img/Picture1.png)
 
  **Cerámica**, **Estucos**, **Lítica**, **Malacología**, **Metales** y **Óseo** comparten la misma estructura.
 
@@ -16,7 +16,7 @@ a. Dentro de cada carpeta de materiales están contenidas las respectivas carpet
 b. La carpeta **Cédula anterior** no se encuentra dentro de todas las claves.  
 c. La carpeta **Cédula CATSA** tampoco se encuentra dentro de todas las claves.
 
-![Main de crear carpetas](img/Picture2.png)
+![](img/Picture2.png)
 
 En la pantalla principal **CREAR CARPETAS**, podrás crear toda esta estructura automáticamente en segundos.  
 
@@ -28,7 +28,7 @@ En la pantalla principal **CREAR CARPETAS**, podrás crear toda esta estructura 
 1. Crea o reutiliza un archivo Excel con **cualquier nombre**.
 2. Estructura tu archivo Excel así:  
 
-![Estructura excel](img/Picture4.png)
+![](img/Picture4.png)
 
 a. Lista en la columna `Clave` todas las claves de excavación. Esto creará una carpeta por clave con la estructura mostrada en la *IMAGEN 1*.  
 b. Crea dos campos más: `Cédula anterior` y `CATSA`. Marca con una `x` (minúscula) las claves que sí contarán con éstas.  
@@ -39,16 +39,16 @@ b. Crea dos campos más: `Cédula anterior` y `CATSA`. Marca con una `x` (minús
 3. Guarda tu archivo Excel y conviértelo a JSON.  
    Un JSON es un documento que se utiliza para estructurar datos. Utiliza el enlace proporcionado en el Paso 1 de la ventana principal (IMAGEN 2.) para entrar a una página que te convertirá fácilmente el archivo de Excel a JSON.
 
-![Boton link de web](img/Picture5.png)
+![](img/Picture5.png)
 > [!NOTE]
 > La siguiente página es ajena a MaterialesHack. Puedes utilizar cualquier otra página o método de tu preferencia para convertir el archivo XLSX (archivo de Excel) a JSON. 
 
-![Cargar excel](img/Picture6.png)
+![](img/Picture6.png)
 
 a. Arrastra y suelta o da clic en esta sección de la página para elegir tu archivo Excel creado en los puntos anteriores.
 b. Da clic al botón ***CONVERTIR***. 
 
-![Descargar JSON](img/Picture7.png)
+![](img/Picture7.png)
 
 a. Aquí puedes pre visualizar la estructura de un archivo JSON. NO ES NECESARIO que indagues en nada de esto.
 b. Simplemente dale clic al botón DESCARGAR AHORA y tendrás tu archivo listo.
@@ -56,7 +56,7 @@ b. Simplemente dale clic al botón DESCARGAR AHORA y tendrás tu archivo listo.
 ### URL del archivo JSON (Lista de claves)
 
 Una vez listo el archivo JSON, cárgalo en el apartado correspondiente. 
-![Campo URL](img/Picture8.png) 
+![](img/Picture8.png) 
 
 Copia y pega la dirección en tu computadora o usa el botón de búsqueda.  
 
@@ -67,7 +67,7 @@ Copia y pega la dirección en tu computadora o usa el botón de búsqueda.
 
 En tu dispositivo debes tener una estructura similar a la siguiente: 
 
-![Estructura carpeta](img/Picture10.png) 
+![](img/Picture10.png) 
  
 Con *MaterialesHack*, puedes generar automáticamente el contenido de cada carpeta en segundos.
 
@@ -79,7 +79,7 @@ El programa generará la estructura para cada clave indicada en el JSON.
 
 ❌ ceramica         ✅ cerámica 
 
-![Destino carpetas](img/Picture13.png) 
+![](img/Picture13.png) 
 
 Copia y pega la dirección en tu computadora de la carpeta de materiales respectiva o da clic al botón ![corect](img/Picture14.png)  para abrir el buscador de archivos.   
 
@@ -87,7 +87,7 @@ Por último, da clic en el botón ![corect](img/Picture15.png) para generar las 
 
 Repite el proceso para cada carpeta de materiales.
 
-![corect](img/Picture16.png)  
+![](img/Picture16.png)  
 
 > [!IMPORTANT]
 > Una vez realizado este proceso por primera vez, puedes crear nuevas carpetas SIEMPRE QUE QUIERAS, ya sea generando un JSON desde cero con las nuevas entradas o agregándoselas al original en su lista. Incluso, dado el caso de que alguna carpeta de Clave de excavación ahora cuente con una Cédula CATSA o una Cédula anterior con la que antes no, simplemente repite este proceso y se agregarán los faltantes SIN AFECTAR las carpetas ya creadas ni los archivos que ya tengan dentro.
@@ -95,7 +95,7 @@ Repite el proceso para cada carpeta de materiales.
 
 **ORGANIZAR ARCHIVOS** de *MaterialesHack* copiará y acomodará automáticamente todos los archivos (JPG o PDF) desde una carpeta de origen hacia las carpetas de destino, tal como se ve en la siguiente gráfica.  
 
-![corect](img/Picture17.png)
+![](img/Picture17.png)
 
 ### Especificaciones
 
@@ -103,7 +103,7 @@ Este procedimiento toma un banco de archivos de una carpeta de origen y los copi
 
 Ejemplo: carpeta `01_iniciales` con imágenes de claves como:
 
-![corect](img/Picture19.png)
+![](img/Picture19.png)
 
 El programa detectará automáticamente las claves de excavación a las que se les hace referencia en los archivos dentro de 01_iniciales. En este ejemplo serían:
 
@@ -135,7 +135,7 @@ Resultado: cada imagen se copiará en automático a su lugar según la clave.
 
 1. **URL donde se encuentran los archivos**
 
-![corect](img/Picture20.png)
+![](img/Picture20.png)
 
 Copia y pega la dirección en tu computadora de la carpeta donde se encuentra tu banco de imágenes o da clic al botón  ![corect](img/Picture14.png)  para abrir el buscador de archivos.  
 
@@ -150,7 +150,7 @@ Selecciona alguna de tus carpetas de materiales, ya sea Cerámica, Estucos, Lít
 
 ❌ ceramica         ✅ cerámica 
 
-![bad](img/Picture21.png)
+![](img/Picture21.png)
 
 Copia y pega la dirección en tu computadora de la carpeta de materiales donde quieres mover las imágenes o da clic al botón   para abrir el buscador de archivos.
 
@@ -159,13 +159,13 @@ Copia y pega la dirección en tu computadora de la carpeta de materiales donde q
 
 Elige la carpeta final. 
 
-![bad](img/Picture22.png) 
+![](img/Picture22.png) 
 
 Da clic en **ORGANIZAR** y espera a que se complete el proceso.  
 
 ¡Listo! Los archivos se habrán distribuido y copiado en sus respectivas carpetas.
 
-![bad](img/Picture23.png)
+![](img/Picture23.png)
 
 Repite este proceso con las carpetas de materiales y las carpetas finales que te falten por llenar y actualizar   
 
