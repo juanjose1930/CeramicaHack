@@ -104,6 +104,7 @@ Este procedimiento toma un banco de archivos de una carpeta de origen y los copi
 Ejemplo: carpeta `01_iniciales` con imágenes de claves como:
 
 ![corect](img/Picture19.png)
+
 El programa detectará automáticamente las claves de excavación a las que se les hace referencia en los archivos dentro de 01_iniciales. En este ejemplo serían:
 
 - `T2_14217_226_0000452`  
@@ -133,13 +134,19 @@ Resultado: cada imagen se copiará en automático a su lugar según la clave.
 ### Pasos
 
 1. **URL donde se encuentran los archivos**
+
 ![corect](img/Picture20.png)
+
 Copia y pega la dirección en tu computadora de la carpeta donde se encuentra tu banco de imágenes o da clic al botón  ![corect](img/Picture14.png)  para abrir el buscador de archivos.  
-> **Nota:** No importa en absoluto el nombre de la carpeta en este primer paso.
-2. **URL de la carpeta de material**: 
+
+> [!NOTE]
+> No importa en absoluto el nombre de la carpeta en este primer paso.
+2. **URL de la carpeta de material** 
+
 Selecciona alguna de tus carpetas de materiales, ya sea Cerámica, Estucos, Lítica, Malacología, Metales u Óseo. Éstas preferentemente ya deben tener dentro alguna carpeta de clave de excavación.
- 
-> **Nota:** No importa en absoluto el nombre de la carpeta en este primer paso.
+
+> [!NOTE]
+> No importa en absoluto el nombre de la carpeta en este primer paso.
 
 ![bad](img/Picture11.png) ceramica         ![corect](img/Picture12.png) 
 ![bad](img/Picture21.png) ceramica
@@ -150,6 +157,7 @@ Copia y pega la dirección en tu computadora de la carpeta de materiales donde q
 
 
 Elige la carpeta final (ver *IMAGEN 1*). 
+
 ![bad](img/Picture22.png) ceramica 
 
 Da clic en **ORGANIZAR** y espera a que se complete el proceso.  
