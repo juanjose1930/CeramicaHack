@@ -1,7 +1,7 @@
 ###                        MaterialesHack
 
 # OBJETIVOS:
-*MaterialesHack* está diseñado para facilitar la creación de carpetas de materiales y el acomodo de archivos dentro de éstas.
+*MaterialesHack* está diseñado para facilitar la creación de carpetas en el área de restauración y el acomodo de archivos dentro de éstas.
 
 
 ## CREAR CARPETAS
